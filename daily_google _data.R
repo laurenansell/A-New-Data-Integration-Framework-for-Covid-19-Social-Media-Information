@@ -58,6 +58,4 @@ get_daily_gtrend <- function(keyword = c('',''), geo = 'UK', from = '2020-01-01'
 get_daily_gtrend(keyword = c('Coronavirus','covid-19'), geo = 'GB', from = '2020-01-01', to = '2021-06-20')
 
 
-write.csv(trend_res,"Google_trends_UK_variant.csv",row.names = FALSE)
-
 
